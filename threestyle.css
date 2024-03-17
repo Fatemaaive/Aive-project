@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Happy Section */
+
+#happy_student {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  height: 500%;
+  margin-top: 15px;
+}
+
+.happy_stu_img_section {
+  width: 10%;
+  height: 100%;
+}
+.happy_stu_details {
+  width: 90%;
+  height: 100%;
+}
+
+.happy_stu_img_section .my_img_div {
+  width: 100%;
+}
+
+.happy_stu_img_section .my_img_div img {
+  /* width: 150px; */
+  height: 780px; 
+}
+
+.happy_stu_details {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .happy_stu_details .happy_stu_details_top {
+} */
+
+.happy_stu_details .happy_stu_details_bottom {
+  display: flex;
+  gap: 50px;
+width: 100%;
+height: 100%;
+}
+
+.happy_stu_details_bottom .stu_say{
+width: 40%;
+
+}
+
+.happy_stu_details_bottom .stu_say_img{
+    width: 43%;
+    margin-top: 60px;
+   
+    }
+
+    .happy_stu_details_bottom .stu_say_img img{
+        width: 100%;
+        
+        }
+
+.happy_stu_details_top_img {
+  display: flex;
+  justify-content: center;
+  gap: 110px;
+  margin-right: 50px;
+}
+
+.stu_say_title{
+   font-size: 22px;
+   font-weight: bold; 
+   text-transform:uppercase ;
+   margin-top: 130px;
+   margin-left: 200px;
+}
+
+.stu_cards{
+    display: flex;
+    gap: 15px;
+    margin-left: 200px;
+    margin-top: 22px;
+    
+}
+.stu_cards .cards_text{
+    background-color: rgb(199, 65, 240);
+   width: 180px;
+   height: 235px;
+    border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  
+}
+
+.stu_cards .first_cards{
+    border-bottom-left-radius: 65px;
+}
+
+.stu_cards .scend_cards{
+    border-bottom-right-radius: 65px;
+}
+.read_all{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}

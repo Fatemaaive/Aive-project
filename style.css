@@ -1,0 +1,606 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* First Section Start  */
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+/* Header Start */
+.hearder_section_back {
+  width: 100vw;
+  position: absolute;
+  top: -400px;
+  z-index: -1;
+}
+.hearder_section_back img {
+  width: 100%;
+  height: 100%;
+}
+.hearder_section_front {
+  margin-top: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+.hearder_section_left {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.hearder_section_left .logo {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: bold;
+}
+.hearder_section_left .header_search {
+  position: relative;
+  left: 45px;
+}
+.hearder_section_left .header_search input {
+  width: 700px;
+  padding: 8px 0px;
+  border-radius: 60px;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+}
+.hearder_section_left .header_search .fa-magnifying-glass {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+.hearder_section_right {
+  display: flex;
+  gap: 10px;
+}
+.hearder_section_right .login {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+.hearder_section_right .singin {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+.hearder_section_right .world {
+  background-color: rgb(255, 255, 255);
+  color: rgb(8, 7, 7);
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+/* Header End */
+
+/* complete section start */
+
+#complete_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* complete section end */
+/* First Section End  */
+
+/* Second Section Start */
+#complete_section {
+  display: flex;
+  justify-content: space-between;
+}
+.complete_section_left {
+  display: flex;
+  width: 60%;
+  position: relative;
+}
+.complete_section_right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+}
+.complete_section_left .left_one_image {
+  width: 60%;
+  position: relative;
+}
+
+.complete_section_left .right_two_image {
+  width: 40%;
+  position: absolute;
+  top: 75px;
+  left: 445px;
+}
+
+.complete_section_left .left_one_image img {
+  width: 100%;
+  height: 460px;
+}
+
+.complete_section_left .right_two_image img {
+  width: 100%;
+}
+
+.complete_section_right .right_logo {
+  color: #000000;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 130px;
+}
+
+.com_your {
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  line-height: 50px;
+}
+
+.web_course {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.start_course_btn {
+  background-color: rgb(161, 54, 200);
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+.right_dotted {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(161, 54, 200);
+}
+
+.complete_section_right_dotted {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+/* Second Section End */
+
+/* three Section Start */
+
+/* Happy Section */
+
+#happy_student {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  height: 500%;
+  margin-top: 15px;
+}
+
+.happy_stu_img_section {
+  width: 10%;
+  height: 100%;
+}
+.happy_stu_details {
+  width: 90%;
+  height: 100%;
+}
+
+.happy_stu_img_section .my_img_div {
+  width: 100%;
+}
+
+.happy_stu_img_section .my_img_div img {
+  /* width: 150px; */
+  height: 780px;
+}
+
+.happy_stu_details {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .happy_stu_details .happy_stu_details_top {
+} */
+
+.happy_stu_details .happy_stu_details_bottom {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.happy_stu_details_bottom .stu_say {
+  width: 40%;
+}
+
+.happy_stu_details_bottom .stu_say_img {
+  width: 43%;
+  margin-top: 60px;
+}
+
+.happy_stu_details_bottom .stu_say_img img {
+  width: 100%;
+}
+
+.happy_stu_details_top_img {
+  display: flex;
+  justify-content: center;
+  gap: 110px;
+  margin-right: 50px;
+}
+
+.stu_say_title {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 130px;
+  margin-left: 200px;
+}
+
+.stu_cards {
+  display: flex;
+  gap: 15px;
+  margin-left: 200px;
+  margin-top: 22px;
+}
+.stu_cards .cards_text {
+  background-color: rgb(199, 65, 240);
+  width: 180px;
+  height: 235px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.stu_cards .first_cards {
+  border-bottom-left-radius: 65px;
+}
+
+.stu_cards .scend_cards {
+  border-bottom-right-radius: 65px;
+}
+.read_all {
+  margin-left: 300px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* three Section End  */
+
+/* four section start */
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+/* <!-- Features Course Section Start --> */
+
+#features_section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+}
+
+.features_section_up {
+  display: flex;
+  width: 100%;
+}
+
+.features_section_up .features_section_up_img {
+  width: 50%;
+}
+
+.features_section_up .features_section_up_img img {
+  width: 100%;
+}
+
+.features_section_up .features_section_up_details {
+  width: 50%;
+}
+
+.features_section_up_details {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features_section_up_details .features_title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.features_section_up_details .features_title .features_title_shape {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(199, 65, 240);
+  border-radius: 50%;
+}
+
+.features_section_up_details .features_title .features_title_text {
+  text-transform: uppercase;
+  font-size: 25px;
+  align-items: center;
+  line-height: 10px;
+}
+
+.features_heading {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.features_heading .first_text {
+  font-weight: bold;
+}
+
+.features_paragraph {
+  width: 50%;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+.start_course_btn {
+  background-color: rgb(205, 60, 249);
+  padding: 6px;
+  border-radius: 42px;
+  width: 120px;
+  text-align: center;
+  color: black;
+
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.features_section_down {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features_section_down_card {
+  width: 25%;
+}
+.features_section_down_card .card_img {
+  width: 100%;
+}
+.features_section_down_card .card_img img {
+  width: 100%;
+}
+
+/* <!-- Features Course Section End --> */
+
+/* four section end */
+
+/* five section start */
+/* <!-- Testimonials Section Start --> */
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+#testimonial_section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+}
+
+.testimonial_section_top {
+  height: 200px;
+  padding-left: 30px;
+  padding-right: 25px;
+}
+
+.testimonial_section_title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.testimonial_trusted {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.testimonial_trusted .thousand_stu {
+  color: #a134d0;
+  font-size: 30px;
+  font-weight: bold;
+  width: 31%;
+}
+
+.start_course_btn {
+  background-color: rgb(205, 60, 249);
+  padding: 6px;
+  border-radius: 40px;
+  width: 120px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  height: fit-content;
+}
+
+.testimonial_section_down {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  height: 638px;
+}
+
+.testimonial_card {
+  width: 40%;
+  background-color: rgb(205, 60, 249);
+  color: white;
+  font-size: 14px;
+  border-radius: 60px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  text-align: justify;
+}
+
+.testimonial_card .testimonial_card_img {
+  position: absolute;
+  top: -113px;
+  left: 29;
+}
+
+.decs_nam {
+  text-align: end;
+  margin: 10px;
+}
+
+/* <!-- Testimonials Section Start --> */
+
+/* five section end */
+
+/* six section start */
+/* Subscribe Section Start */
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.subscribe_top {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.subscribe_top .subscribe_title {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.subscribe_top p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Subscribe Section End */
+
+/*  Footer Section Start */
+
+footer {
+  width: 100%;
+  height: 230px;
+  background-color: black;
+}
+
+.footer_content {
+  color: white;
+}
+
+.all_icons {
+  font-size: 35px;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.subscribe_btn {
+  width: 100px;
+  text-decoration: none;
+  background-color: rgb(205, 60, 249);
+  border-radius: 30px;
+  padding: 4px 12px;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  align-items: center;
+  height: fit-content;
+}
+
+.footer_top {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  align-items: baseline;
+}
+
+.link {
+  color: white;
+}
+
+.footer_social p {
+  margin-bottom: 20px;
+  /* color: white; */
+}
+
+.same_title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.all_text ul li {
+  font-size: 18px;
+}
+
+.all_text {
+  color: white;
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_down {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  color: white;
+  margin-top: 15px;
+}
+
+.copyright {
+  margin-top: 15px;
+}
+
+.copy_right_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  Footer Section End */
+
+/* six section end */

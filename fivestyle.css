@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* <!-- Testimonials Section Start --> */
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+#testimonial_section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+}
+
+.testimonial_section_top {
+  height: 200px;
+  padding-left: 30px;
+  padding-right: 25px;
+}
+
+.testimonial_section_title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.testimonial_trusted {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.testimonial_trusted .thousand_stu {
+  color: #a134d0;
+  font-size: 30px;
+  font-weight: bold;
+  width: 31%;
+}
+
+.start_course_btn {
+  background-color: rgb(205, 60, 249);
+  padding: 6px;
+  border-radius: 40px;
+  width: 120px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  height: fit-content;
+}
+
+.testimonial_section_down {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  height: 638px;
+}
+
+.testimonial_card {
+  width: 40%;
+  background-color: rgb(205, 60, 249);
+  color: white;
+  font-size: 14px;
+  border-radius: 60px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  text-align: justify;
+}
+
+.testimonial_card .testimonial_card_img {
+  position: absolute;
+  top: -113px;
+  left: 29;
+}
+
+.decs_nam {
+  text-align: end;
+  margin: 10px;
+}
+
+/* <!-- Testimonials Section Start --> */
